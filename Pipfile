@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+apprise = "*"
+pyserial = "*"
+"RPi.GPIO" = "*"
+adafruit-circuitpython-bno055 = "*"
+smbus2 = "*"
+pymlx90614 = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
